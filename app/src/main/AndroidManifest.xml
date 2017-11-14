@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.quantpower.hkquotes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name=".utils.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".ui.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activit
+            android:name=".ui.activity.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.activity.LiveRoomActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".ui.activity.CurriculumActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.activity.NewsDetailActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.activity.OriginalPageActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.activity.ProductIntroductionActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.activity.MeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.MeCollectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.MeCleanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.MeGuideActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.MeOpinionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.MeAboutActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

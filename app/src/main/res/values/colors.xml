@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_1">#333333</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="color_fefefe">#fefefe</color>
+    <color name="color_333448">#333448</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_eae6e7">#eae6e7</color>
+    <color name="color_e4e3e1">#e4e3e1</color>
+    <color name="color_e1e5e6">#e1e5e6</color>
+    <color name="color_bababa">#bababa</color>
+    <color name="color_d0d0d0">#d0d0d0</color>
+    <color name="color_878787">#878787</color>
+    <color name="color_47a4f2">#47a4f2</color>
+    <color name="colorPlayerBlackTrans">#bb000000</color>
+    <color name="colorPlayerWhite">#FFFFFF</color>
+    <color name="colorPlayerProgressBg">#e1767676</color>
+    <color name="colorPlayerProgressSecond">#c1c1c1</color>
+    <color name="colorPlayerProgress">#FFFFFF</color>
+
+</resources>
